@@ -17,7 +17,7 @@
             if(password_verify($_POST['password'], $user[0]['password'])){
                 $_SESSION['user'] = $_POST['email'];
                 $_SESSION['user'] = $_POST['password'];
-                header('location: index.html');
+                header('location: admin/index.php');
 
             }else{
                 $erros[] = "логин или пароль введен не верно";
