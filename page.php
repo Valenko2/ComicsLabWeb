@@ -23,6 +23,6 @@
         <h1 class="title-desk"><?php echo $data[0]['title'] ?></h1>
         <p class="desk"><?php echo $data[0]['desk'] ?></p>
         <h5 class="data"> Дата выхода: <?php echo $data[0]['data'] ?></h5>
-        <p class="Comicslab">комикс создан командой Comicslab все права на него пренадлежат только ему</p>
+        <p class="Comicslab">комикс создан командой Comicslab все права на комикс пренадлежат только ему</p>
     </div>
 </main>
