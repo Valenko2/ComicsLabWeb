@@ -1,3 +1,13 @@
+<?php
+require'system/function.php';
+require'system/link.php';
+session_start();
+
+echo $_SESSION['user'][1];
+varDump($_SESSION['user'])
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +17,5 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </body>
 </html>

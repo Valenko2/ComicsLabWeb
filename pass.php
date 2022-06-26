@@ -24,7 +24,7 @@ if(isset($_POST['go'])){
 }
 
 ?>
-
+<link rel="stylesheet" href="css/main.css">
 <main class="register">
     <form method="POST" class="reg_form">
             <input type="text" name="emailPass" class="input" placeholder="введите код из сообщения">

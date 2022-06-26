@@ -47,10 +47,10 @@ if(isset($_POST['go'])){
 ?>
 
 
-
+<link rel="stylesheet" href="css/main.css">
 <main class="register">
     <form method="POST" class="reg_form">
-        <p><input type="text" placeholder="введите электроную почту" name="email" class="input" ></p>
+        <p><input type="email" placeholder="введите электроную почту" name="email" class="input" ></p>
         <p><input type="password" placeholder="введите пароль" name="password" class="input"></p>
         <p><input type="password" placeholder="введите пароль повторно" name="password2" class="input"></p>
         <button type="submit" name="go" class="regs">Регистрация</button>
