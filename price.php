@@ -5,7 +5,7 @@
     require'system/link.php';
     $q = 'SELECT * FROM `products`';
     $res = mysqli_query($link, $q);
-	$data = mysqli_fetch_all($res, MYSQLI_ASSOC);
+    $data = mysqli_fetch_all($res, MYSQLI_ASSOC);
 
 ?>
 <link rel="stylesheet" href="css/main.css">
