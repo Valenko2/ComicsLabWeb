@@ -16,7 +16,7 @@ if(isset($_POST['go'])){
     $q = 'SELECT * FROM `users` WHERE `email` = "'.$_POST['email'].'" ';
     $res = mysqli_query($link, $q);
     $us = mysqli_fetch_all($res, MYSQLI_ASSOC);
-    if( $us == ''){
+    if( $us != ''){
         $errors[] = "пользователь с такой почтой уже существует"; 
     }
 
